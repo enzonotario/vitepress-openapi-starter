@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: API Reference
-      link: /reference
+      link: /introduction
     - theme: alt
       text: Documentation
       link: https://vitepress-openapi.vercel.app/

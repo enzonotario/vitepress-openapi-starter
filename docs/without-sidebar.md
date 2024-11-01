@@ -2,7 +2,7 @@
 sidebar: false
 aside: true
 outline: [1, 2]
-title: vitepress-theme-api
+title: vitepress-openapi
 ---
 
 <script setup lang="ts">
