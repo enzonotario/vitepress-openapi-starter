@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "vitepress": "latest",
-    "vitepress-openapi": "^0.0.3-alpha.49"
+    "vitepress-openapi": "latest"
   }
 }
