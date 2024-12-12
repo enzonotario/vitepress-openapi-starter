@@ -35,6 +35,12 @@ export default defineConfig({
         ],
       },
       {
+        text: 'By Paths',
+        items: [
+          ...sidebar.itemsByPaths(),
+        ],
+      },
+      {
         text: 'One Page',
         items: [
           { text: 'One Page', link: '/one-page' },
