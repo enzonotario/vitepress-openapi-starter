@@ -49,4 +49,10 @@ export default defineConfig({
       },
     ],
   },
+
+  vite: {
+    ssr: {
+      noExternal: ['vitepress-openapi'],
+    }
+  }
 });

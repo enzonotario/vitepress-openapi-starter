@@ -8,7 +8,7 @@
     "start": "vitepress dev docs"
   },
   "devDependencies": {
-    "vitepress": "^1.6.3",
+    "vitepress": "latest",
     "vitepress-openapi": "https://pkg.pr.new/vitepress-openapi@74d0164"
   }
 }
