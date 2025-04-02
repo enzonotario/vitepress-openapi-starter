@@ -10,16 +10,7 @@ export default {
   async enhanceApp({ app, router, siteData }) {
     const openapi = useOpenapi({
       spec,
-      config: {
-        requestBody: {
-          defaultView: 'schema',
-        },
-        response: {
-          body: {
-            defaultView: 'schema',
-          },
-        },
-      },
+      config: {},
     });
 
     theme.enhanceApp({ app, openapi });
