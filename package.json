@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "vitepress": "latest",
-    "vitepress-openapi": "https://pkg.pr.new/vitepress-openapi@c4b44cd"
+    "vitepress-openapi": "https://pkg.pr.new/vitepress-openapi@4c3877c"
   }
 }
