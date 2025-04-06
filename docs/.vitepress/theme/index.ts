@@ -10,14 +10,7 @@ export default {
   async enhanceApp({ app, router, siteData }) {
     const openapi = useOpenapi({
       spec,
-      config: {
-        jsonViewer: {
-          renderer: 'shiki',
-        },
-        operation: {
-          hiddenSlots: ['playground'],
-        },
-      },
+      config: {},
     });
 
     theme.enhanceApp({ app, openapi });
