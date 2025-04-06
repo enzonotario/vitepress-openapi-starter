@@ -14,6 +14,9 @@ export default {
         jsonViewer: {
           renderer: 'shiki',
         },
+        operation: {
+          hiddenSlots: ['playground'],
+        },
       },
     });
 
