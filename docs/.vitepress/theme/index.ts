@@ -14,6 +14,14 @@ export default {
         jsonViewer: {
           renderer: 'shiki',
         },
+        requestBody: {
+          defaultView: 'schema',
+        },
+        response: {
+          body: {
+            defaultView: 'schema',
+          },
+        },
       },
     });
 
