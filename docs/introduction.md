@@ -2,6 +2,10 @@
 title: vitepress-openapi
 ---
 
-<OAInfo />
+<script setup>
+import { data } from './introduction.data.js'
+</script>
 
-<OAServers />
+<OAInfo :info="data.info" :external-docs="data.externalDocs" />
+
+<OAServers :servers="data.servers" />
