@@ -6,7 +6,7 @@ title: vitepress-openapi
 ---
 
 <script setup lang="ts">
-import spec from './public/openapi.json'
+import spec from '.vitepress/spec.js'
 </script>
 
 <OASpec :spec="spec" />

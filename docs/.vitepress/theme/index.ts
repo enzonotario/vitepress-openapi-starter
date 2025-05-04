@@ -1,13 +1,15 @@
 import DefaultTheme from 'vitepress/theme';
 import type { Theme } from 'vitepress';
 
-import { theme, useOpenapi } from 'vitepress-openapi/client';
+import { theme, useOpenapi, useShiki } from 'vitepress-openapi/client';
 import 'vitepress-openapi/dist/style.css';
-import spec from '../../public/openapi.json' with { type: 'json' }
+import spec from '../spec'
 
 export default {
   ...DefaultTheme,
   async enhanceApp({ app, router, siteData }) {
+    await useShiki().init()
+
     const openapi = useOpenapi({
       spec,
       config: {},
