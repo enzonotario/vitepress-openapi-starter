@@ -49,4 +49,15 @@ export default defineConfig({
       },
     ],
   },
+  /** Give each dynamic page its own <title> */
+  transformPageData(pageData) {
+    // params returned from [*].paths.js|ts are available here
+    const pageTitle = pageData.params?.pageTitle;
+
+    if (pageTitle) {
+      pageData.title = pageTitle;
+      pageData.frontmatter ??= {};
+      pageData.frontmatter.title = pageTitle;
+    }
+  },
 });
