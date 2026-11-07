@@ -2,7 +2,6 @@
 title: vitepress-openapi
 ---
 
-<ClientOnly>
-  <OAInfo />
-  <OAServers />
-</ClientOnly>
+<OAInfo />
+
+<OAServers />

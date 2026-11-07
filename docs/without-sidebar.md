@@ -9,6 +9,4 @@ title: vitepress-openapi
 import spec from './public/openapi.json'
 </script>
 
-<ClientOnly>
-  <OASpec :spec="spec" />
-</ClientOnly>
+<OASpec :spec="spec" />

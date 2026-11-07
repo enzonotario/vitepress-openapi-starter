@@ -12,6 +12,4 @@ const route = useRoute()
 const tag = route.data.params.tag
 </script>
 
-<ClientOnly>
-  <OASpec :tags="[tag]" hide-info hide-servers hide-paths-summary />
-</ClientOnly>
+<OASpec :tags="[tag]" hide-info hide-servers hide-paths-summary />
