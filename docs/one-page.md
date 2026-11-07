@@ -3,4 +3,6 @@ aside: false
 title: vitepress-openapi
 ---
 
-<OASpec />
+<ClientOnly>
+  <OASpec />
+</ClientOnly>

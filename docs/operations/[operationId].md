@@ -12,4 +12,6 @@ const route = useRoute()
 const operationId = route.data.params.operationId
 </script>
 
-<OAOperation :operationId="operationId" />
+<ClientOnly>
+  <OAOperation :operationId="operationId" />
+</ClientOnly>
